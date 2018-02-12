@@ -1,5 +1,4 @@
 package ru.job4j;
-
 /**
  * Calculate.
  *
@@ -25,7 +24,7 @@ public class Calculate {
       */
 
       public String echo(String name) {
-           return "Eho, echo, echo : " + name;
+           return "Echo, echo, echo : " + name;
 }
 
 }      
