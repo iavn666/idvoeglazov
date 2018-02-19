@@ -15,10 +15,10 @@ public class Converter {
     private double result;
 
     /**
-     * Обьявляем значения переменных
+     * Обьявляем значения переменных, через константу
      */
-    int euro = 70;
-    int dollar = 60;
+    final int euro = 70;
+    final int dollar = 60;
     int value;
 
     /**
