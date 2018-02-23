@@ -17,8 +17,8 @@ public class MaxTest {
     @Test
     public void whenFirstLessSecond() {
         Max maxim = new Max();
-        int result = maxim.max(1, 2);
-        assertThat(result, is(2));
+        int result = maxim.max(1, 2,3);
+        assertThat(result, is(3));
     }
     /**
      * Тестирует метод whenFirstmoreSecon.
@@ -26,7 +26,7 @@ public class MaxTest {
     @Test
     public void whenFirstmoreSecond() {
         Max maxim = new Max();
-        int result = maxim.max(2, 1);
+        int result = maxim.max(2, 1,3);
         assertThat(result, is(1));
     }
     /**
@@ -35,7 +35,7 @@ public class MaxTest {
     @Test
     public void whenFirstequallySecond() {
         Max maxim = new Max();
-        int result = maxim.max(2, 2);
+        int result = maxim.max(2, 2,3);
         assertThat(result, is(2));
     }
 

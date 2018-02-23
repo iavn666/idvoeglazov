@@ -9,16 +9,13 @@ public class Max {
      * Проверяем переменные на максимальное значение
      *
      */
-    public int max(int first, int second) {
-        /**
-         * Выполняем теренарное условие
-         * @return возвращаем вычесленное значение
-         */
+   public int max (int first, int second, int third) {
+       /**
+        * Вычисляем максимакльное значение через Math.max
+        *
+        */
 
-        return (first > second)? 1 : 2;
-
-
-
+       return (Math.max(first, Math.max (second, third)));
     }
 
 
