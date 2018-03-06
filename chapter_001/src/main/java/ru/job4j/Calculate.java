@@ -3,8 +3,9 @@ package ru.job4j;
  * Calculate.
  *
  * @author ivan dvoeglazov (ivan.vanya.2012@inbox.ru)
- * @version $Id$
- * @since 0.1
+ * @version 1
+ * @since 06.03.2018
+ *
  */
 
 public class Calculate {
