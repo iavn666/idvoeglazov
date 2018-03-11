@@ -15,7 +15,7 @@ public class Fit {
      */
 
     double man = 100;
-    double constant = 1.15;
+    public static final double constant = 1.15;
     double woman = 110;
 
     /**
