@@ -10,8 +10,8 @@ public class SquareTest {
     @Test
     public void calculate() {
         Square calc = new Square();
-        int[] result = calc.calculate(6);
-        int expected = 1;
+        int[] result = calc.calculate(5);
+        int[] expected = new int[] {1, 4, 9, 16, 25, 36};
         assertThat(result, is(expected));
             }
 }
