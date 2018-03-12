@@ -9,11 +9,19 @@ public class FindLoopTest {
     @Test
     public void findloop() {
         FindLoop find = new FindLoop();
-        int result = find.indexOf(new int[]{0,1,2},2);
-        int[] expected = new int[] {0};
+        int result = find.indexOf(new int[]{1,2,3},2);
+        int expected = 1;
         assertThat(result, is(expected));
 
 
-
     }
+
+    @Test
+    public void nofindloop() {
+        FindLoop find = new FindLoop();
+        int result = find.indexOf(new int[]{1, 2, 3}, 0);
+        int expected = -1;
+        assertThat(result, is(expected));
+    }
+
 }
