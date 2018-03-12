@@ -9,7 +9,7 @@ public class BubbleSortTest {
     @Test
     public void whenSortArrayWithTenElementsThenSortedArray() {
         BubbleSort find = new BubbleSort();
-        int [] rezultArray = find.sort(new int[]{1, 5, 4, 2, 3, 1, 7, 8, 0, 5});
+        int [] rezultArray = find.sort(new int[]{1, 5, 4, 2, 3, 1, 7, 8, 0, 5,10});
         int[] expected = new int[]{0, 1, 1, 2, 3, 4, 5, 5, 7, 8};
         assertThat(rezultArray, is(expected));
 
