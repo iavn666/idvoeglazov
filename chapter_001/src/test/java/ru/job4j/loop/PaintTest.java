@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class PaintTest {
     @Test
     public void whenPyramid4Right() {
-        Paint paint = new Paint();
+        Paint paint = new Paint ();
         String rst = paint.pyramid(4);
         System.out.println(rst);
         assertThat(rst,

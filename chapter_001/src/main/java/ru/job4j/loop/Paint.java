@@ -6,19 +6,9 @@ package ru.job4j.loop;
  */
 public class Paint {
     public String pyramid(int height) {
-        /*
-        *вводим переменную screen со сылкой на обьект StringBuilder()
-         */
         StringBuilder screen = new StringBuilder();
-        /*
-        *Производим вычисление
-         */
         int weight = 2 * height - 1;
-        /*
-        * Цикл с переменной row, приэтом row не равно переменной height, умеличиваем каждый раз значение да один
-        * до тех пор пока будет выполняться условие
-         */
-        for (int row = 0; row != height; row++) {
+         for (int row = 0; row != height; row++) {
             for (int column = 0; column != weight; column++) {
                 if (row >= height - column - 1 && row + height - 1 >= column) {
                     screen.append("^");
