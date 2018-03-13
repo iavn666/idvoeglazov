@@ -14,9 +14,9 @@ public class Fit {
      * @param woman женщины.
      */
 
-    double man = 100;
-    public static final double constant = 1.15;
-    double woman = 110;
+    public static final double MAN = 100;
+    public static final double CONSTANT = 1.15;
+    public static final double WOMAN = 110;
 
     /**
      * Идеальный вес для мужщины.
@@ -25,7 +25,7 @@ public class Fit {
      */
 
     double manWeight(double height) {
-        return (height - man) * constant;
+        return (height - MAN) * CONSTANT;
     }
 
     /**
@@ -35,6 +35,6 @@ public class Fit {
      */
 
     double womanWeight(double height) {
-        return (height - woman) * constant;
+        return (height - WOMAN) * CONSTANT;
     }
 }
