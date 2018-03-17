@@ -7,26 +7,12 @@ package ru.array;
 public class Turn {
 
     public int[] back(int[] array){
-
-        /*
-        *Преворачиваем массив
-         */
-
-
-            for (int index = 0;index<array.length/2;index++){
-                /*
-                *Запоминаем значение массива через переменную
-                 */
+     for (int index = 0;index<array.length/2;index++){
             int a = array[index];
-            /*
-            * Меняем местами элементы в массиве
-             */
             array[index]= array[array.length - index - 1];
-             array[array.length - index - 1]= a;
-                        }
-
+            array[array.length - index - 1]= a;
+        }
               return array;
-
         }
     }
 

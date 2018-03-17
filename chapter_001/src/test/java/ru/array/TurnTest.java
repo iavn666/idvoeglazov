@@ -21,6 +21,5 @@ public class TurnTest {
         int [] resultArray = massive.back(new int[]{2, 6, 1, 4});
         int [] expectArray = new int[]{4,1,6,2};
         assertThat(resultArray, is(expectArray));
-
     }
 }
